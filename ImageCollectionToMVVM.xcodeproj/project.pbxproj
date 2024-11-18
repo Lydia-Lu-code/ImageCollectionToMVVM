@@ -13,6 +13,15 @@
 		5C9E53872CEB34F100F745C5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E53862CEB34F100F745C5 /* Base */; };
 		5C9E53892CEB34F200F745C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E53882CEB34F200F745C5 /* Assets.xcassets */; };
 		5C9E538C2CEB34F200F745C5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E538B2CEB34F200F745C5 /* Base */; };
+		5C9E53952CEB350A00F745C5 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E53942CEB350A00F745C5 /* ImageItem.swift */; };
+		5C9E53982CEB353500F745C5 /* SortableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E53972CEB353500F745C5 /* SortableCollection.swift */; };
+		5C9E539A2CEB359500F745C5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E53992CEB359500F745C5 /* CoreDataManager.swift */; };
+		5C9E539D2CEB35D600F745C5 /* ImageCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E539C2CEB35D600F745C5 /* ImageCollectionViewModel.swift */; };
+		5C9E53A02CEB360B00F745C5 /* ImageCollectionViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E539F2CEB360B00F745C5 /* ImageCollectionViewProtocol.swift */; };
+		5C9E53A32CEB365F00F745C5 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E53A22CEB365F00F745C5 /* ImageCollectionViewController.swift */; };
+		5C9E53A52CEB369200F745C5 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E53A42CEB369200F745C5 /* ImageCollectionViewCell.swift */; };
+		5C9E53A72CEB36B500F745C5 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E53A62CEB36B500F745C5 /* ImageDetailViewController.swift */; };
+		5C9E53AA2CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E53A82CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		5C9E53882CEB34F200F745C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C9E538B2CEB34F200F745C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C9E538D2CEB34F200F745C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9E53942CEB350A00F745C5 /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		5C9E53972CEB353500F745C5 /* SortableCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortableCollection.swift; sourceTree = "<group>"; };
+		5C9E53992CEB359500F745C5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		5C9E539C2CEB35D600F745C5 /* ImageCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewModel.swift; sourceTree = "<group>"; };
+		5C9E539F2CEB360B00F745C5 /* ImageCollectionViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewProtocol.swift; sourceTree = "<group>"; };
+		5C9E53A22CEB365F00F745C5 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		5C9E53A42CEB369200F745C5 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C9E53A62CEB36B500F745C5 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		5C9E53A92CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageCollectionModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +77,61 @@
 				5C9E537F2CEB34F100F745C5 /* AppDelegate.swift */,
 				5C9E53812CEB34F100F745C5 /* SceneDelegate.swift */,
 				5C9E53832CEB34F100F745C5 /* ViewController.swift */,
+				5C9E53A12CEB361D00F745C5 /* ViewControllers */,
+				5C9E539E2CEB35EF00F745C5 /* ViewProtocol */,
+				5C9E539B2CEB35A700F745C5 /* ViewModels */,
+				5C9E53962CEB351F00F745C5 /* Protocols */,
+				5C9E53932CEB34FC00F745C5 /* Models */,
 				5C9E53852CEB34F100F745C5 /* Main.storyboard */,
 				5C9E53882CEB34F200F745C5 /* Assets.xcassets */,
 				5C9E538A2CEB34F200F745C5 /* LaunchScreen.storyboard */,
 				5C9E538D2CEB34F200F745C5 /* Info.plist */,
 			);
 			path = ImageCollectionToMVVM;
+			sourceTree = "<group>";
+		};
+		5C9E53932CEB34FC00F745C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E53942CEB350A00F745C5 /* ImageItem.swift */,
+				5C9E53992CEB359500F745C5 /* CoreDataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C9E53962CEB351F00F745C5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E53972CEB353500F745C5 /* SortableCollection.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5C9E539B2CEB35A700F745C5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E539C2CEB35D600F745C5 /* ImageCollectionViewModel.swift */,
+				5C9E53A82CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodeld */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5C9E539E2CEB35EF00F745C5 /* ViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E539F2CEB360B00F745C5 /* ImageCollectionViewProtocol.swift */,
+			);
+			path = ViewProtocol;
+			sourceTree = "<group>";
+		};
+		5C9E53A12CEB361D00F745C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E53A22CEB365F00F745C5 /* ImageCollectionViewController.swift */,
+				5C9E53A42CEB369200F745C5 /* ImageCollectionViewCell.swift */,
+				5C9E53A62CEB36B500F745C5 /* ImageDetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C9E53A02CEB360B00F745C5 /* ImageCollectionViewProtocol.swift in Sources */,
+				5C9E539A2CEB359500F745C5 /* CoreDataManager.swift in Sources */,
+				5C9E53A72CEB36B500F745C5 /* ImageDetailViewController.swift in Sources */,
+				5C9E53952CEB350A00F745C5 /* ImageItem.swift in Sources */,
 				5C9E53842CEB34F100F745C5 /* ViewController.swift in Sources */,
+				5C9E53982CEB353500F745C5 /* SortableCollection.swift in Sources */,
 				5C9E53802CEB34F100F745C5 /* AppDelegate.swift in Sources */,
+				5C9E53AA2CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodeld in Sources */,
+				5C9E53A52CEB369200F745C5 /* ImageCollectionViewCell.swift in Sources */,
+				5C9E53A32CEB365F00F745C5 /* ImageCollectionViewController.swift in Sources */,
+				5C9E539D2CEB35D600F745C5 /* ImageCollectionViewModel.swift in Sources */,
 				5C9E53822CEB34F100F745C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +439,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C9E53A82CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C9E53A92CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodel */,
+			);
+			currentVersion = 5C9E53A92CEB3A0800F745C5 /* ImageCollectionModel.xcdatamodel */;
+			name = ImageCollectionModel.xcdatamodeld;
+			path = "/Users/Lydia-Lu/Desktop/ImageCollectionToMVVM/ImageCollectionToMVVM/ViewModels/ImageCollectionModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5C9E53742CEB34F100F745C5 /* Project object */;
 }
